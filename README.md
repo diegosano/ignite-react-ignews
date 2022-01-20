@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://i.imgur.com/h8JIA81.png" width="1000px" alt="Logo ignite">
 
-## Getting Started
+<h1 align="center">
+  :newspaper: ig.news
+</h1> 
 
-First, run the development server:
+<p align="center">
+Ig.news is a blog project created with Nextjs and the JAMStack concept. Stripe API for subscription payment and access to complete posts, if visitor can preview the content. By webhooks, the status of the client update according to payment tor cancellation of his web subscription. The information save through the Fauna database cloud API.
+The content management used is the Prismic, an online content management platform.
+</p>
+
+## :hammer_and_wrench: Technologies
+
+- [React](https://pt-br.reactjs.org/)
+- [Nextjs](https://nextjs.org/)
+- [NextAuth.js](https://next-auth.js.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+- [Axios](https://axios-http.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Fauna](https://fauna.com/)
+- [Stripe](https://stripe.com/)
+- [Prismic](https://prismic.io/)
+- [Yarn](https://yarnpkg.com/)
+
+## :rocket: Getting Started
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/diegosano/ignite-react-ignews.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+  cd ignite-react-ignews
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  yarn install
+```
 
-## Learn More
+Start the server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  yarn dev 
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## :page_facing_up: License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is under the [MIT license](./LICENSE).
 
-## Deploy on Vercel
+#
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+:man_technologist: with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :rocket: and [Diego Sano](https://github.com/diegosano)
